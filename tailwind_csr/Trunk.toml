@@ -21,7 +21,7 @@ no_autoreload = false      # Disable auto-reload of the web app.
 no_error_reporting = false # Disable error reporting
 
 [watch]
-watch = ["src/", "index.html", "input.css"]
+watch = ["src/", "index.html", "style.css"]
 # [[hooks]]
 # stage = "pre_build"  # When to run hook, must be one of "pre_build", "build", "post_build"
 # command = "tailwindcss"        # Command to run

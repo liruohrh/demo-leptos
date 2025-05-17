@@ -1,0 +1,1 @@
+tailwindcss -i ./style.css -o ./build/style.css --watch
