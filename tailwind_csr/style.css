@@ -1,0 +1,5 @@
+/* tailwindcss4, input.css */
+@import "tailwindcss" source(none);
+@source "./src/";
+
+/* @import "tailwindcss" source("../src/"); */
