@@ -18,12 +18,10 @@ fn main() {
 #[component]
 pub fn AButton(
     #[prop(into)] name: String,
-    #[prop(default = "btn btn-primary".to_string())] class: String,
     #[prop(default = false)] disabled: bool,
 ) -> impl IntoView {
     view! {
         <button
-            class=class
             disabled=disabled
             on:click=move |_| {
                 console::log_1(&format!("{} clicked!", name.clone()).into());
