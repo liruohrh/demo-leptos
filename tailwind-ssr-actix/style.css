@@ -1,0 +1,11 @@
+@import "tailwindcss" source(none);
+@source "./src/";
+@plugin "daisyui" {
+    themes: lemonade --default, forest --prefersdark;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
